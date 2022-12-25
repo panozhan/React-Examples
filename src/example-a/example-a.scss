@@ -1,0 +1,22 @@
+$border-pixel: 12px;
+
+.column {
+    border: $border-pixel lightgreen solid;
+    height: 400px + $border-pixel * 4;
+    width: 200px + $border-pixel * 2;
+    display: flex;
+    flex-direction: column;
+}
+.tile {
+    border: $border-pixel purple solid;
+    width: 200px;
+    height: 200px;
+}
+#container {
+    width: 600px + $border-pixel * 12;
+    display: flex;
+    border: $border-pixel cyan solid;
+}
+.red {
+    background-color: red;
+}
